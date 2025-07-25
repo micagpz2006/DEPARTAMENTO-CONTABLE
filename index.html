@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Departamento Contable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Departamento Contable</h1>
+  <p>Empresa Simulada de Servicios - 6to 2da</p>
+</header>
+
+<section>
+  <h2>🔍 ¿Qué es el Departamento Contable?</h2>
+  <p>Es el área encargada de registrar, clasificar y resumir todas las operaciones económicas de la empresa. Su objetivo es proporcionar información financiera clara y precisa para la toma de decisiones y el cumplimiento de obligaciones legales y fiscales.</p>
+</section>
+
+<section>
+  <h2>🎯 Funciones Principales</h2>
+  <ul>
+    <li>Registro contable: Asiento de ingresos, egresos y movimientos financieros.</li>
+    <li>Control de cuentas: Seguimiento de cuentas por cobrar y por pagar.</li>
+    <li>Elaboración de informes: Balance general, estado de resultados, flujo de efectivo.</li>
+    <li>Cumplimiento fiscal: Presentación de impuestos y declaraciones juradas.</li>
+    <li>Auditoría interna: Control de operaciones para detectar errores o fraudes.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧾 Documentación Contable Utilizada</h2>
+  <ul>
+    <li>Libro Diario</li>
+    <li>Libro Mayor</li>
+    <li>Balance de Comprobación (Sumas y Saldos)</li>
+    <li>Estados Contables</li>
+    <li>Comprobantes: facturas, recibos, órdenes de pago</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧠 Importancia en una Empresa de Servicios</h2>
+  <p>En las empresas de servicios, donde no hay producción de bienes tangibles, el control financiero es esencial para evaluar la rentabilidad. La contabilidad permite saber si se está cobrando lo suficiente por los servicios prestados y si los recursos se están utilizando eficientemente.</p>
+</section>
+
+<section>
+  <h2>📚 Caso Práctico: Registros Contables</h2>
+
+  <h3>a) Libro Diario</h3>
+  <table>
+    <tr><th>Fecha</th><th>Cuenta Debe</th><th>Cuenta Haber</th><th>Importe</th></tr>
+    <tr><td>01/07/25</td><td>Caja</td><td>Capital</td><td>$500.000</td></tr>
+    <tr><td>02/07/25</td><td>Banco</td><td>Clientes</td><td>$120.000</td></tr>
+    <tr><td>03/07/25</td><td>Sueldos</td><td>Banco</td><td>$80.000</td></tr>
+    <tr><td>04/07/25</td><td>Servicios Públicos</td><td>Caja</td><td>$10.000</td></tr>
+  </table>
+
+  <h3>b) Libro Mayor (extracto)</h3>
+  <p><strong>Cuenta: Caja</strong></p>
+  <ul>
+    <li>01/07/25 → Debe: $500.000</li>
+    <li>04/07/25 → Haber: $10.000</li>
+    <li><strong>Saldo: $490.000</strong></li>
+  </ul>
+  <p><strong>Cuenta: Banco</strong></p>
+  <ul>
+    <li>02/07/25 → Debe: $120.000</li>
+    <li>03/07/25 → Haber: $80.000</li>
+    <li><strong>Saldo: $40.000</strong></li>
+  </ul>
+
+  <h3>c) Balance de Sumas y Saldos</h3>
+  <table>
+    <tr><th>Cuenta</th><th>Debe</th><th>Haber</th></tr>
+    <tr><td>Caja</td><td>$500.000</td><td>$10.000</td></tr>
+    <tr><td>Banco</td><td>$120.000</td><td>$80.000</td></tr>
+    <tr><td>Clientes</td><td>-</td><td>$120.000</td></tr>
+    <tr><td>Sueldos</td><td>$80.000</td><td>-</td></tr>
+    <tr><td>Servicios Públicos</td><td>$10.000</td><td>-</td></tr>
+    <tr><td>Capital</td><td>-</td><td>$500.000</td></tr>
+  </table>
+
+  <h3>d) Ajustes Contables (al 31/07/25)</h3>
+  <ul>
+    <li>Se devengan $5.000 de servicios públicos no registrados.</li>
+    <li>Se provisiona un gasto por $6.000 en cargas sociales.</li>
+  </ul>
+  <table>
+    <tr><th>Fecha</th><th>Cuenta Debe</th><th>Cuenta Haber</th><th>Importe</th></tr>
+    <tr><td>31/07/25</td><td>Servicios Públicos</td><td>Deudas a Pagar</td><td>$5.000</td></tr>
+    <tr><td>31/07/25</td><td>Cargas Sociales</td><td>Deudas a Pagar</td><td>$6.000</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>🧾 Conclusión</h2>
+  <p>El departamento contable cumple un rol fundamental en las empresas de servicios al garantizar el orden y control financiero. A través del registro adecuado de las operaciones y la elaboración de informes, permite a los directivos tomar decisiones estratégicas y asegurar el cumplimiento fiscal y legal. Incluso en una empresa simulada, aplicar estos procesos es esencial para adquirir experiencia real en gestión empresarial.</p>
+</section>
+
+<footer>
+  <p>Elaborado por Gómez Micaela y Mercado Mateo - 6to 2da - 2025</p>
+</footer>
+
+</body>
+</html>
